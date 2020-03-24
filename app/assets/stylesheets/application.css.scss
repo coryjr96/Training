@@ -43,3 +43,25 @@ h1, h2, h3 {
   background-color: white;
   border: none;
 }
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: bold;
+  font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-default .navbar-brand:hover {
+  color:white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
+}
