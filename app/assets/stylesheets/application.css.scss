@@ -27,15 +27,12 @@ h1, h2, h3 {
 .navbar {
   //Gradient provided by @_ighosh at uiGradients.com
   background: #c0c0aa;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #19D8E6, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #19D8E6, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home-callout {
-  background: #c0c0aa;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #19D8E6;  /* fallback for old browsers */
 }
 
 // Home Page Styles
@@ -89,4 +86,29 @@ h1, h2, h3 {
 .logo {
   width: 150px;
   margin-top: -7px;
+}
+
+// Home Page Title Styling
+
+h1 {
+  margin-top: 10px;
+}
+
+.pink-text1 {
+  color: #ec2e92;
+  margin-right: -8px;
+  margin-left: 5px;
+  font-style: bold;
+}
+
+.pink-text2 {
+  color: #ec2e92;
+  margin-left: -8px;
+  margin-right: 5px;
+  font-style: bold;
+}
+
+.black-text {
+  color: black;
+  font-style: bold;
 }
